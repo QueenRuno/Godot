@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://be6p7dmepuyif"]
+
+[ext_resource type="Texture2D" uid="uid://68xsefasj4nm" path="res://art/image-2.png(2).png" id="1_k0ki1"]
+[ext_resource type="Script" uid="uid://dorqbqkst3qak" path="res://dialogue/dialogueplayer.gd" id="1_vigd0"]
+
+[node name="Dialogue" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_vigd0")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = 409.0
+offset_top = 447.0
+offset_right = 489.0
+offset_bottom = 487.0
+scale = Vector2(4, 4)
+texture = ExtResource("1_k0ki1")
+
+[node name="Name" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 3.0
+offset_right = 68.0
+offset_bottom = 35.0
+scale = Vector2(0.2, 0.2)
+
+[node name="Text" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 7.9999995
+offset_right = 286.99997
+offset_bottom = 138.0
+scale = Vector2(0.2, 0.2)

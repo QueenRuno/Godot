@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://b5dwo1gk7fmt6"]
+
+[ext_resource type="Texture2D" uid="uid://4fx8sjs4psbe" path="res://art/tilement-5.png" id="1_c1uxe"]
+
+[resource]
+albedo_color = Color(0.6549577, 0.074087255, 0.49326515, 1)
+albedo_texture = ExtResource("1_c1uxe")
+uv1_scale = Vector3(0.1, 0.1, 0.1)
+uv1_triplanar = true
+uv1_world_triplanar = true

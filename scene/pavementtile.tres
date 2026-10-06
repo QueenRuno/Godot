@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cbahah0pj1cqa"]
+
+[ext_resource type="Texture2D" uid="uid://4fx8sjs4psbe" path="res://art/tilement-5.png" id="1_h66je"]
+
+[resource]
+render_priority = 1
+albedo_color = Color(0.27079082, 0.27683675, 0.27392697, 1)
+albedo_texture = ExtResource("1_h66je")
+uv1_triplanar = true
+uv1_world_triplanar = true
